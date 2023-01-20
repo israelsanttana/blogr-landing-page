@@ -1,4 +1,6 @@
 @import url(./reset.css);
+@import url(./nav.css);
+@import url(./header.css);
 
 :root {
   --Light-red: hsl(356, 100%, 66%);
@@ -20,4 +22,12 @@ html {
 body {
   font-size: 1.6rem;
   font-family: Overpass;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+main {
+  width: 100%;
 }

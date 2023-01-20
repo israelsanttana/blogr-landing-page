@@ -1,0 +1,25 @@
+nav {
+  display: flex;
+  width: 80%;
+  align-items: center;
+}
+
+ul {
+  display: flex;
+}
+li {
+  margin-left: 2rem;
+}
+
+.logo {
+  width: 20%;
+}
+.nav {
+  width: 30%;
+}
+
+.user {
+  display: flex;
+  justify-content: end;
+  width: 50%;
+}
