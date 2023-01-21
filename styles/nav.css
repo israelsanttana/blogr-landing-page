@@ -1,14 +1,17 @@
 nav {
   display: flex;
   width: 80%;
+  max-width: 1440px;
   align-items: center;
+  margin-top: 4rem;
 }
 
 ul {
   display: flex;
 }
 li {
-  margin-left: 2rem;
+  margin-right: 2.4rem;
+  color: var(--White);
 }
 
 .logo {
@@ -22,4 +25,5 @@ li {
   display: flex;
   justify-content: end;
   width: 50%;
+  align-items: center;
 }

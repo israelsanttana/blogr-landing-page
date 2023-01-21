@@ -1,6 +1,8 @@
 @import url(./reset.css);
 @import url(./nav.css);
 @import url(./header.css);
+@import url(./buttons.css);
+@import url(./sections.css);
 
 :root {
   --Light-red: hsl(356, 100%, 66%);
@@ -30,4 +32,7 @@ body {
 
 main {
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
