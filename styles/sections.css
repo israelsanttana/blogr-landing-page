@@ -16,7 +16,7 @@ section {
   justify-content: center;
 }
 
-picture {
+.wallpaper {
   width: 100%;
   overflow: hidden;
 }
