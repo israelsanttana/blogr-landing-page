@@ -24,13 +24,4 @@ html {
 body {
   font-size: 1.6rem;
   font-family: Overpass;
-  display: flex;
-  justify-content: center;
-}
-
-main {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
