@@ -2,23 +2,24 @@
   background: none;
   border: none;
   color: var(--White);
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   margin-right: 1.4rem;
 }
 #sign-up {
   background-color: var(--White);
   border: none;
   border-radius: 5rem;
-  font-size: 1.2rem;
+  font-size: 1.6rem;
   color: var(--Light-red);
   font-weight: 600;
-  padding: 1rem 2rem 1rem;
+  padding: 1rem 3rem 1rem;
 }
 
 #start-plan {
   background-color: var(--White);
   color: var(--Light-red);
-  font-size: 1.2rem;
+  font-size: 1.6rem;
+  font-weight: 600;
   border: none;
   border-radius: 5rem;
   padding: 1rem 1.5rem 1rem;
@@ -28,7 +29,8 @@
 #learn {
   background-color: transparent;
   color: var(--White);
-  font-size: 1.2rem;
+  font-size: 1.6rem;
+  font-weight: 600;
   border: solid 1px var(--White);
   border-radius: 5rem;
   padding: 1rem 2rem 1rem;

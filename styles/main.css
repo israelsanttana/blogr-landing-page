@@ -1,5 +1,5 @@
 @import url(./reset.css);
-@import url(./nav.css);
+@import url(./menu.css);
 @import url(./header.css);
 @import url(./buttons.css);
 @import url(./sections.css);
@@ -24,4 +24,13 @@ html {
 body {
   font-size: 1.6rem;
   font-family: Overpass;
+  width: 100vw;
+  height: 100vh;
+}
+
+.container {
+  width: 100%;
+  max-width: 1080px;
+  padding: 1rem;
+  margin: 1rem;
 }

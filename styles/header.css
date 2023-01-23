@@ -1,0 +1,37 @@
+header {
+  width: 100%;
+  max-width: 1440px;
+  height: 60rem;
+  display: flex;
+  justify-content: center;
+  background-image: url(../images/bg-pattern-intro-desktop.svg),
+    linear-gradient(50deg, hsl(13, 100%, 72%), hsl(353, 100%, 62%));
+  background-position: calc(100% - 72%);
+  border-bottom-left-radius: 8rem;
+}
+
+.show-case {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10rem;
+}
+.show-case-txt {
+  text-align: center;
+  margin-top: 4rem;
+}
+.show-case-txt h1 {
+  color: var(--White);
+  font-size: 6rem;
+  font-weight: 600;
+}
+.show-case-txt p {
+  color: var(--White);
+  font-size: 2rem;
+  margin-top: 2rem;
+}
+.show-case-btn {
+  display: flex;
+  margin-top: 6rem;
+}
