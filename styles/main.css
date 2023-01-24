@@ -11,10 +11,9 @@ main {
 .title {
   width: 100%;
   text-align: center;
-  font-size: 3.4rem;
+  font-size: 3.5rem;
   color: var(--Very-dark-blue);
   font-weight: 600;
-  margin-top: 11rem;
 }
 
 .content {
@@ -22,21 +21,22 @@ main {
 }
 
 .designed-text {
-  min-height: 80rem;
+  min-height: 90rem;
   display: flex;
   flex: 1;
   flex-direction: column;
   justify-content: center;
+  padding: 2rem;
 }
 .designed-text h2 {
-  font-size: 2.4rem;
+  font-size: 2.6rem;
   font-weight: 600;
   color: var(--Very-dark-blue);
   margin-bottom: 4rem;
 }
 .designed-text p {
   color: var(--Very-dark-grayish-blue);
-  font-size: 1.4rem;
+  font-size: 1.7rem;
   line-height: 3rem;
   margin-bottom: 4rem;
 }
