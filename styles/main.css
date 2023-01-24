@@ -22,7 +22,6 @@ main {
 }
 
 .designed-text {
-  max-width: 43rem;
   min-height: 80rem;
   display: flex;
   flex: 1;
@@ -48,8 +47,5 @@ main {
 .designed-img {
   display: flex;
   flex: 1;
-  width: 100%;
   position: relative;
-  right: -18rem;
-  top: -10rem;
 }
