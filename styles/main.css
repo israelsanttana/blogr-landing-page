@@ -5,7 +5,8 @@ main {
   display: flex;
   justify-content: center;
   overflow: hidden;
-  margin-top: 4rem;
+  margin-top: 6rem;
+  position: relative;
 }
 
 .title {
@@ -14,20 +15,24 @@ main {
   font-size: 3.5rem;
   color: var(--Very-dark-blue);
   font-weight: 600;
+  position: absolute;
+  left: 0;
+  top: 10rem;
 }
 
 .content {
   display: flex;
+  height: 90rem;
 }
 
 .designed-text {
-  min-height: 90rem;
   display: flex;
   flex: 1;
   flex-direction: column;
   justify-content: center;
-  padding: 2rem;
+  padding: 6rem 2rem 0rem;
 }
+
 .designed-text h2 {
   font-size: 2.6rem;
   font-weight: 600;
@@ -45,7 +50,11 @@ main {
   position: absolute;
 }
 .designed-img {
+  width: 70rem;
   display: flex;
   flex: 1;
   position: relative;
+  top: -7rem;
+  right: -4rem;
+  margin-top: 6rem;
 }

@@ -7,7 +7,7 @@ header {
   justify-content: center;
   background-image: url(../images/bg-pattern-intro-desktop.svg),
     linear-gradient(50deg, hsl(13, 100%, 72%), hsl(353, 100%, 62%));
-  background-position: calc(100% - 72%);
+  background-position: 26% 52%;
   border-bottom-left-radius: 8rem;
 }
 
