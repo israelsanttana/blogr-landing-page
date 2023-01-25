@@ -1,4 +1,47 @@
 footer {
   width: 100%;
-  height: 40rem;
+  max-width: 1440px;
+  margin: 0 auto;
+  height: 34rem;
+  background-color: var(--Very-dark-black-blue);
+  border-top-right-radius: 10rem;
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-links {
+  display: flex;
+  gap: 20rem;
+  margin-top: 4rem;
+}
+
+.footer-links div {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-links div h3 {
+  color: var(--White);
+  font-family: Ubuntu;
+  font-size: 1.4rem;
+  font-weight: 500;
+  margin-bottom: 2rem;
+}
+
+.footer-links a {
+  font-family: Ubuntu;
+  color: var(--Grayish-blue);
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+
+.footer-links span {
+  margin-top: 1.6rem;
+}
+
+.footer-links a:hover {
+  cursor: pointer;
+  border-bottom: 1px solid var(--White);
+  transition: 0.1s;
 }
