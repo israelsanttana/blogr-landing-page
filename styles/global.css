@@ -3,6 +3,7 @@
 @import url(./header.css);
 @import url(./buttons.css);
 @import url(./main.css);
+@import url(./footer.css);
 
 :root {
   --Light-red: hsl(356, 100%, 66%);

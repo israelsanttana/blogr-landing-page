@@ -4,6 +4,8 @@ main {
   margin: 0 auto;
   display: flex;
   justify-content: center;
+  align-items: center;
+  flex-direction: column;
   overflow: hidden;
   margin-top: 6rem;
   position: relative;
@@ -57,4 +59,50 @@ main {
   top: -7rem;
   right: -4rem;
   margin-top: 6rem;
+}
+
+.secondary-content {
+  width: 100%;
+  height: 40rem;
+  display: flex;
+  justify-content: center;
+  background-image: url(../images/bg-pattern-circles.svg),
+    linear-gradient(45deg, hsl(237, 17%, 21%), hsl(237, 23%, 32%));
+  background-position: -40% 80%;
+  background-repeat: no-repeat;
+  border-top-right-radius: 10rem;
+  border-bottom-left-radius: 10rem;
+  margin-bottom: 5rem;
+}
+
+.secondary-main {
+  width: 100%;
+  height: 40rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+
+.secondary-img {
+  display: flex;
+  flex: 1;
+  margin-top: 2rem;
+}
+
+.secondary-text {
+  display: flex;
+  flex: 1;
+}
+
+.secondary-text div h2 {
+  width: 100%;
+  font-size: 3.7rem;
+  color: var(--White);
+  margin-bottom: 2rem;
+}
+
+.secondary-text div p {
+  color: var(--White);
+  line-height: 3rem;
 }
