@@ -5,6 +5,12 @@
   font-size: 1.6rem;
   margin-right: 1.4rem;
 }
+#login:hover {
+  border-bottom: solid 1px var(--White);
+  transition: 0.1s;
+  cursor: pointer;
+}
+
 #sign-up {
   background-color: var(--White);
   border: none;
@@ -13,6 +19,13 @@
   color: var(--Light-red);
   font-weight: 600;
   padding: 1rem 3rem 1rem;
+}
+#sign-up:hover,
+#start-plan:hover {
+  background-color: hsl(355, 100%, 74%);
+  color: var(--White);
+  transition: 0.1s;
+  cursor: pointer;
 }
 
 #start-plan {
@@ -35,4 +48,10 @@
   border-radius: 5rem;
   padding: 1rem 2rem 1rem;
   margin-left: 1rem;
+}
+#learn:hover {
+  background-color: var(--White);
+  color: var(--Light-red);
+  cursor: pointer;
+  transition: 0.1s;
 }
