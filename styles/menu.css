@@ -36,8 +36,8 @@ li span {
   margin-left: 1rem;
 }
 
-nav a:hover ~ li span:hover {
-  transform: rotate(180deg);
+nav li:hover {
+  cursor: pointer;
 }
 
 .card-navigation {
@@ -49,13 +49,21 @@ nav a:hover ~ li span:hover {
   padding: 3rem;
   border-radius: 0.5rem;
   margin-top: 2rem;
-  position: absolute;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-  transform: translateY(95%) scale(0);
+  display: none;
+  /*transform: translateY(95%) scale(0);*/
 }
 
-nav a:hover ~ .card-navigation {
+/* nav a:hover ~ .card-navigation {
   transform: translateY(0) scale(1);
+} */
+
+nav li:hover img {
+  transform: rotate(180deg);
+  transition: 0.1s;
+}
+nav li:hover .card-navigation {
+  display: block;
 }
 
 .card-navigation li {
