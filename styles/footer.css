@@ -11,8 +11,9 @@ footer {
 }
 
 .footer-links {
+  width: 100%;
   display: flex;
-  gap: 20rem;
+  justify-content: space-between;
   margin-top: 4rem;
 }
 

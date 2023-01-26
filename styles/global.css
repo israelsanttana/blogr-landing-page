@@ -34,3 +34,45 @@ body {
   max-width: 1080px;
   margin: 1rem;
 }
+
+@media (max-width: 1058px) {
+  .nav,
+  .user {
+    display: none;
+  }
+  .show-case-btn {
+    margin-top: 1rem;
+  }
+  .title {
+    position: static;
+  }
+  .content {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+  .designed-img {
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    right: 0;
+    margin-top: 0;
+  }
+  .designed-img img {
+    position: static;
+    width: 100%;
+  }
+  .designed-text div {
+    text-align: center;
+  }
+  .secondary-content {
+    height: auto;
+  }
+  .secondary-main {
+    flex-direction: column;
+    height: auto;
+  }
+  .secondary-img img {
+    width: 100%;
+  }
+}
