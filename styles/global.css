@@ -40,6 +40,29 @@ body {
   .user {
     display: none;
   }
+  .menu-mobile {
+    display: block;
+  }
+  .menu {
+    justify-content: space-between;
+    margin: 3rem 2rem 0;
+  }
+  header {
+    background-image: url(../images/bg-pattern-intro-mobile.svg),
+      linear-gradient(-202deg, hsl(13, 100%, 72%), hsl(353, 100%, 62%));
+    background-position: 37% 34%;
+  }
+  .show-case-txt {
+    margin-top: 0;
+    padding: 2rem;
+  }
+  .show-case-txt h1 {
+    font-weight: 300;
+    font-size: 4rem;
+  }
+  .show-case-txt p {
+    margin-bottom: 0;
+  }
   .show-case-btn {
     margin-top: 1rem;
   }
@@ -81,6 +104,8 @@ body {
   }
   .secondary-content {
     height: auto;
+    background-position: 40% -88%;
+    background-size: 100%;
   }
   .secondary-main {
     flex-direction: column;

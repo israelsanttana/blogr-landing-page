@@ -1,3 +1,7 @@
+.menu-mobile {
+  display: none;
+}
+
 .menu {
   display: flex;
   align-items: center;
