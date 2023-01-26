@@ -43,13 +43,21 @@ body {
   .show-case-btn {
     margin-top: 1rem;
   }
+  .primary-content {
+    display: flex;
+    flex-direction: column;
+  }
   .title {
     position: static;
+  }
+  .title h2 {
+    font-size: 3rem;
   }
   .content {
     flex-direction: column-reverse;
     justify-content: center;
     align-items: center;
+    height: auto;
   }
   .designed-img {
     justify-content: center;
@@ -61,18 +69,58 @@ body {
   .designed-img img {
     position: static;
     width: 100%;
+    margin-top: 0;
   }
   .designed-text div {
     text-align: center;
+    margin: 0rem 3.6rem 0rem;
+    min-height: 86rem;
+  }
+  .designed-text div h2 {
+    margin-bottom: 1rem;
   }
   .secondary-content {
     height: auto;
   }
   .secondary-main {
     flex-direction: column;
-    height: auto;
+    min-height: 50rem;
+    position: relative;
   }
   .secondary-img img {
     width: 100%;
+    position: absolute;
+    top: -20rem;
+    right: 0rem;
+  }
+  .secondary-text div {
+    text-align: center;
+    padding: 2rem;
+  }
+  .third-content {
+    flex-direction: column;
+  }
+  .third-img {
+    width: 100%;
+    position: static;
+    align-items: center;
+    justify-content: center;
+  }
+  .third-img picture img {
+    position: static;
+  }
+  .third-text div {
+    text-align: center;
+    padding: 2rem;
+  }
+  footer {
+    height: auto;
+  }
+  .footer-links {
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer-links div {
+    margin: 2rem;
   }
 }
