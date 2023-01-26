@@ -31,3 +31,43 @@ a {
   text-decoration: none;
   color: var(--White);
 }
+
+li span {
+  margin-left: 1rem;
+}
+
+nav a:hover ~ li span:hover {
+  transform: rotate(180deg);
+}
+
+.card-navigation {
+  width: 17rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.1rem;
+  background-color: var(--White);
+  padding: 3rem;
+  border-radius: 0.5rem;
+  margin-top: 2rem;
+  position: absolute;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  transform: translateY(95%) scale(0);
+}
+
+nav a:hover ~ .card-navigation {
+  transform: translateY(0) scale(1);
+}
+
+.card-navigation li {
+  color: var(--Very-dark-blue);
+}
+
+.card-navigation li:hover {
+  font-weight: 600;
+  cursor: pointer;
+}
+
+a:hover {
+  border-bottom: solid 2px var(--White);
+  cursor: pointer;
+}
