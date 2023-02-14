@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="./script.js"></script>
     <link
       rel="icon"
       type="image/png"
@@ -23,14 +24,18 @@
       <div class="container">
         <div class="menu">
           <div class="logo">
-            <span><img src="./images/logo.svg" alt="" /></span>
+            <div>
+              <span><img src="./images/logo.svg" alt="" /></span>
+            </div>
+            <div class="menu-mobile">
+              <span>
+                <img src="./images/icon-hamburger.svg" alt="" />
+                <button onclick="activeMenu()">Testando</button>
+              </span>
+            </div>
           </div>
-          <div class="menu-mobile">
-            <span>
-              <img src="./images/icon-hamburger.svg" alt="" />
-            </span>
-          </div>
-          <div class="nav">
+
+          <div class="nav" id="nav">
             <nav>
               <ul>
                 <li>
@@ -75,7 +80,7 @@
               </ul>
             </nav>
           </div>
-          <div class="user">
+          <div class="user" id="user">
             <div><button id="login">Login</button></div>
             <div><button id="sign-up">Sign Up</button></div>
           </div>
