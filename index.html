@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="./script.js"></script>
+
     <link
       rel="icon"
       type="image/png"
@@ -25,73 +25,73 @@
         <div class="menu">
           <div class="logo">
             <div>
-              <span><img src="./images/logo.svg" alt="" /></span>
+              <span><img src="./images/logo.svg" alt="logo do site" /></span>
             </div>
             <div class="menu-mobile">
-              <span>
-                <img
-                  src="./images/icon-hamburger.svg"
-                  id="open"
-                  alt=""
-                  onclick="activeMenu()"
-                />
-                <img
-                  src="./images/icon-close.svg"
-                  id="close"
-                  alt=""
-                  onclick="activeMenu()"
-                />
+              <span id="open">
+                <img src="./images/icon-hamburger.svg" alt="" />
               </span>
+              <span id="close"
+                ><img src="./images/icon-close.svg" alt=""
+              /></span>
             </div>
           </div>
 
-          <div class="nav" id="nav">
-            <nav>
-              <ul>
-                <li>
-                  <a href="#"
-                    >Product
-                    <span
-                      ><img src="./images/icon-arrow-light.svg" alt="" /></span
-                  ></a>
-                  <ul class="card-navigation">
-                    <li>Overview</li>
-                    <li>Pricing</li>
-                    <li>Marketplace</li>
-                    <li>Features</li>
-                    <li>Integrations</li>
-                  </ul>
-                </li>
-                <li>
-                  <a href="#"
-                    >Company
-                    <span
-                      ><img src="./images/icon-arrow-light.svg" alt="" /></span
-                  ></a>
-                  <ul class="card-navigation">
-                    <li>About</li>
-                    <li>Team</li>
-                    <li>Blog</li>
-                    <li>Careers</li>
-                  </ul>
-                </li>
-                <li>
-                  <a href="#"
-                    >Connect
-                    <span
-                      ><img src="./images/icon-arrow-light.svg" alt="" /></span
-                  ></a>
-                  <ul class="card-navigation">
-                    <li>Contact</li>
-                    <li>Newsletter</li>
-                    <li>Linkedin</li>
-                  </ul>
-                </li>
-              </ul>
-            </nav>
-            <div class="user" id="user" onclick="activeMenu()">
-              <div><button id="login">Login</button></div>
-              <div><button id="sign-up">Sign Up</button></div>
+          <div id="nav">
+            <div class="nav">
+              <nav>
+                <ul>
+                  <li>
+                    <a href="#"
+                      >Product
+                      <span
+                        ><img
+                          src="./images/icon-arrow-light.svg"
+                          alt="" /></span
+                    ></a>
+                    <ul class="card-navigation">
+                      <li>Overview</li>
+                      <li>Pricing</li>
+                      <li>Marketplace</li>
+                      <li>Features</li>
+                      <li>Integrations</li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="#"
+                      >Company
+                      <span
+                        ><img
+                          src="./images/icon-arrow-light.svg"
+                          alt="" /></span
+                    ></a>
+                    <ul class="card-navigation">
+                      <li>About</li>
+                      <li>Team</li>
+                      <li>Blog</li>
+                      <li>Careers</li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="#"
+                      >Connect
+                      <span
+                        ><img
+                          src="./images/icon-arrow-light.svg"
+                          alt="" /></span
+                    ></a>
+                    <ul class="card-navigation">
+                      <li>Contact</li>
+                      <li>Newsletter</li>
+                      <li>Linkedin</li>
+                    </ul>
+                  </li>
+                </ul>
+              </nav>
+              <div class="user" id="user">
+                <div><button id="login">Login</button></div>
+                <div><button id="sign-up">Sign Up</button></div>
+              </div>
             </div>
           </div>
         </div>
@@ -235,5 +235,6 @@
         </div>
       </div>
     </footer>
+    <script src="./script.js"></script>
   </body>
 </html>
