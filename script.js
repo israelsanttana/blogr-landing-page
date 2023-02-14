@@ -1,7 +1,14 @@
-const nav = document.getElementById('nav');
-const user = document.getElementById('user');
-const btnMenu = document.getElementById('btn-menu')
+
 
 function activeMenu() {
-    nav.classList.add('hidden');
+    const nav = document.getElementById('nav');
+    
+    if(nav.style.display === "none") {
+        nav.style.display = "block"
+        
+    } else {
+        nav.style.display = "none"
+    }
+   
 }
+

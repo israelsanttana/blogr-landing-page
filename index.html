@@ -29,8 +29,18 @@
             </div>
             <div class="menu-mobile">
               <span>
-                <img src="./images/icon-hamburger.svg" alt="" />
-                <button onclick="activeMenu()">Testando</button>
+                <img
+                  src="./images/icon-hamburger.svg"
+                  id="open"
+                  alt=""
+                  onclick="activeMenu()"
+                />
+                <img
+                  src="./images/icon-close.svg"
+                  id="close"
+                  alt=""
+                  onclick="activeMenu()"
+                />
               </span>
             </div>
           </div>
@@ -79,10 +89,10 @@
                 </li>
               </ul>
             </nav>
-          </div>
-          <div class="user" id="user">
-            <div><button id="login">Login</button></div>
-            <div><button id="sign-up">Sign Up</button></div>
+            <div class="user" id="user" onclick="activeMenu()">
+              <div><button id="login">Login</button></div>
+              <div><button id="sign-up">Sign Up</button></div>
+            </div>
           </div>
         </div>
         <div class="show-case">

@@ -35,11 +35,10 @@ body {
   margin: 1rem;
 }
 
-.hidden {
-  display: none;
-}
-
 @media (max-width: 1058px) {
+  #close {
+    display: none;
+  }
   .menu-mobile {
     display: block;
   }
@@ -65,7 +64,8 @@ body {
   .nav {
     width: 90%;
     background-color: var(--White);
-    height: 34rem;
+    height: 100vh;
+    display: none;
   }
 
   nav ul {
